@@ -1,0 +1,75 @@
+
+
+
+
+body {
+	background: rgb(220, 227, 232);
+	}
+
+a {
+	text-decoration:none;
+}
+
+table {
+	border-collapse:collapse;
+	}
+
+table,td,th {
+	border:1px solid black;
+	}
+
+td, th {
+	text-align:center;
+	padding:7px;
+	}
+
+
+h1 {
+	font-style:arial;
+	font-size: 50px;
+	color:rgb(76,170,224);
+	text-shadow: 1px 1px 2px rgb(30, 66, 86);
+	}
+
+h3 {
+	font-style:arial;
+	font-size: 25px;
+	color:rgb(76,170,224);
+	text-shadow: 1px 1px 2px rgb(30, 66, 86);
+}
+
+ul.navbar {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	height:auto;
+	position:fixed;
+	background-color:rgb(36, 45, 51);
+	}
+
+li.navbar {
+	display: inline;
+	text-align: center;
+	float: left;
+	}
+
+li a.navbar {
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	color:white;
+	}
+
+li a.navbar:hover {
+	background-color: black;
+	} 
+
+div.stage_details {
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+.errormessage {
+	color: red;
+}
